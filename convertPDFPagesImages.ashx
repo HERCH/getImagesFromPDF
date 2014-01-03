@@ -58,7 +58,7 @@ public class imaging_fmex : IHttpHandler, IRequiresSessionState
         }
         catch (Exception)
         {
-            context.Response.WriteFile("../resources/packageCSS/notFound/notFound.png");
+            context.Response.WriteFile("../notFound.png");
         }
     }
 
